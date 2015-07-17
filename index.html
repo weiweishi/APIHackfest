@@ -50,30 +50,36 @@
 				</section>
 
 				<section>
+                                    <section>
 					<h2>What is OpenRefine</h2>
 					<p>
                                           Formerly known as Google Refine, OpenRefine is a free, open source tool for working with messy data, cleaning it up, transforming it from one format into another, and enhancing it with data from web services.
 					</p>
-				</section>
+                                    </section>
 
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
+				    <section>
 						<h2>Who uses OpenRefine</h2>
 						<img data-src="images/users.png">
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
 						<a href="#" class="navigate-down">
 							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
 						</a>
+				 	</section>
+					<section>
+						<h2>OpenRefine's Ecosystem</h2>
+						<img data-src="images/ecosystem.png">
 					</section>
 					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
+						<h2>Reconciliation Services</h2>
+						<p>With OpenRefine, we can perform reconciliation against any web service supporting the Reconciliation Service API.</p>
+                                                <ul>
+                                                  <li>Reconcile-csv</li>
+                                                  <li>Nomenklatura</li>
+                                                  <li>SPARQL endpoints</li>
+                                                  <li>VIVO entities</li>
+                                                  <li>VIAF</li>
+                                                  <li>LCSH</li>
+                                                  <li>dbpedia</li>
+                                                </ul>
 						<br>
 						<a href="#/2">
 							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
@@ -82,26 +88,24 @@
 				</section>
 
 				<section>
-					<h2>Slides</h2>
+					<h2>Start a OpenRefine Project from your API results</h2>
+                                     <section>
 					<p>
-						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
+					An API request to Google Places to search places of type "food" within 200 meter radius of University of Alberta:
+                                        <a href="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=53.5235571,-113.5239325&radius=200&types=food&key=AIzaSyD-aV4ZDVgfqqNMC78UiKjpp65VOOmGrDM">https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=53.5235571,-113.5239325&radius=200&types=food&key=AIzaSyD-aV4ZDVgfqqNMC78UiKjpp65VOOmGrDM</a>
 					</p>
+                                     </section>
 				</section>
 
 				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
+					<h2>Geocoding with OpenRefine</h2>
 				</section>
 
 				<section>
-					<h2>Touch Optimized</h2>
+					<h2>OpenRefine Expression Language (GREL)</h2>
 					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
+                                          GREL is designed to resemble Javascript. So you can expect basic things to work, and know how they would work:
+                                        <img data-src="images/grel.png">
 					</p>
 				</section>
 
